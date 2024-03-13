@@ -1,5 +1,5 @@
 # Netflix Clone 🍿
-Este é um clone do Netflix desenvolvido como parte de um projeto pessoal. O projeto foi construído utilizando HTML, CSS, JavaScript e Bootstrap. Abaixo estão alguns detalhes sobre como o site foi estruturado e algumas funcionalidades-chave. (O responsivo está sendo desenvolvido).
+Este é um clone do Netflix desenvolvido como parte de um projeto pessoal. O projeto foi construído utilizando HTML, CSS, JavaScript e Bootstrap. Abaixo estão alguns detalhes sobre como o site foi estruturado e algumas funcionalidades-chave. **(O responsivo está sendo desenvolvido)**.
 
 # Funcionalidades Principais ⚙️
 - **Página de Login**: O usuário é redirecionado para a página de login, onde pode inserir seu email ou número de telefone e senha para acessar a plataforma. Ao clicar no botão "Entrar" você é redirecionado(a) para navegação.
