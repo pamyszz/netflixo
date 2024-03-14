@@ -1,7 +1,11 @@
-body{
+/* Definições Gerais */
+body {
     background-color: #141414;
     overflow-x: hidden;
     width: 100vw;
+    margin: 0;
+    padding: 0;
+
 }
 
 .netflix-padding-left{
@@ -72,16 +76,15 @@ body{
 }
 
 i{
-    font-size: 1rem;
-    font-weight: bolder;
+    font-size: 20px;
     color: #fff;
-    padding: 10px 20px;
+    padding: 5px 20px;
 }
 
 .netflix-profile{
     width: 30px;
     height: 30px;
-    background-color: rgb(128, 128, 128);
+    background-color: gray;
     border-radius: 4px;
     margin-left: 20px;
     cursor: pointer;
@@ -93,15 +96,13 @@ i{
 
 .netflix-nav button{
     background-color: transparent;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.623);
     border: none;
-    font-size: 14px;
-    font-weight: 600;
-    margin-left: 10px;
+    font-size: 13px;
 }
 
 .netflix-nav button:hover{
-    color: #ffffff5f;
+    color: #fff;
 }
 
 
@@ -128,8 +129,8 @@ i{
 }
 .netflix-home-video video{
     width: 100%;
+    height: auto;
 }
-
 
 .netflix-home-video .content{
     position: absolute;
@@ -144,7 +145,7 @@ i{
     margin-left: 80px;
 }
 .netflix-home-video .content .left img{
-   margin-top: 230px;
+   margin-top: 190px;
    
 }
 .netflix-home-video .content .right{
@@ -152,30 +153,34 @@ i{
 }
 
 
+.slider-box {
+ margin-top: 45px;
+}
 
 .slider{
     position: absolute;
     top: 600px ;
     z-index: 500;
-    margin: 20px;
 }
 
 
-
-.slider2{
+.slider2 {
     position: absolute;
-    top: 800px ;
+    top: 900px;
     z-index: 500;
-    margin: 20px;
+}
+
+.slider2 .position-slider2 {
+    top: 20px !important; /* Ajustando a posição do texto dentro do segundo slide */
+    position: absolute !important;
+    z-index: 500;
 }
 
 .slider3{
-    position: absolute;
+    position: relative;
     top: 1000px ;
     z-index: 500;
-    margin: 20px;
 }
-
 
 .card{
     width: 250px;
@@ -195,6 +200,7 @@ i{
 
 .card-body{
     display: none;
+    /* height: 0px; */
     padding: 10px 15px;
     position: absolute;
     background-color: #141414;
@@ -213,7 +219,7 @@ i{
 
 .card:hover > .card-body{
     display: block;
-    height: max-content !important;
+    /* height: max-content !important; */
 }
 
 .carousel-control-prev{
@@ -280,4 +286,65 @@ ul{
       font-weight: 200;
       color: rgb(249, 14, 14);
       margin-left: 28px;
+}
+
+
+
+@media (max-width: 320px) {
+    .d-flex {
+        margin-top: -15px;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (min-width: 700px) {
+    .text-white {
+        font-size: 1.5rem;
+    }
+    .d-flex {
+        margin-bottom: 10px;
+    }
+
+    .card {
+        width: 55%;
+        background-color: #141414;
+        border-radius: 4px;
+        transition: 0.2s linear;
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .slider {
+        position: relative;
+        top: auto;
+        margin-top: -10%;
+    }
+
+    .netflix-home-video .content .left img {
+        width: 300px;
+        margin-top: 180px !important;
+    }
+
+    .card:hover > .card-body {
+        display: none; 
+    }
+    .card:focus > .card-body {
+        display: block; 
+    }
+}
+
+@media (min-width: 1280px) {
+   .netflix-home-video .content .left img {
+        width: 500px;
+        margin-top: 330px !important;
+    }
+    .slider {
+        position: relative;
+        top: auto;
+        margin-top: -10%;
+    }
 }

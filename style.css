@@ -1,37 +1,39 @@
 body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.491), rgba(0, 0, 0, 0.416)) , url(./images/login-bg.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
+    height: 150vh;
+    width: 100%;
 }
-
 .login-top{
     width: 100vw;
-    height: 70px;
+    height: 50px;
     background-color: rgba(0, 0, 0, 0);
     padding: 0px 20px;
     display: flex;
     align-items: center;
+    margin-top: 20px;
 }
 
 .login-top img{
     width: 150px;
 }
 
+
 .login-box{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.591), rgba(0, 0, 0, 0.756));
-    width: 430px;
-    height: 630px;
+    background-color: rgba(0, 0, 0, 0.899);
+    width: 400px;
+    height: 500px;
     border-radius: 5px;
-    padding: 60px;
+    padding: 50px;
 }
 
 .small-text{
-    font-size: 13px;
+    font-size: 0.7rem;
 }
 
 .form-control{
     box-shadow: none !important;
 }
 
+@media only screen and (max-width: 600px) {
+    
+}
