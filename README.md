@@ -8,7 +8,7 @@ Este é um clone do Netflix desenvolvido como parte de um projeto pessoal. O pro
 - **Sliders de Conteúdo**: Os sliders na parte inferior da página apresentam uma seleção de conteúdo recomendado, incluindo séries, filmes e outros.
 
 # Como Acessar 📺
-O projeto está hospedado no Vercel e pode ser acessado [aqui](https://netflixo-ivory.vercel.app/).
+O projeto está hospedado no Vercel e pode ser acessado [aqui](https://netflixo-tfmx.vercel.app/).
 
 # Visualizações 🎞️
 **Página de Login**
